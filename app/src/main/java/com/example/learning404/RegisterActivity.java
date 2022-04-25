@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
+
     EditText editTextUsername, editTextEmail, editTextPassword, editTextCnfPassword;
     Button buttonRegister;
 
@@ -55,7 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
                     startActivity(moveToLogin);
 
                 } else {
-                    Toast.makeText(RegisterActivity.this, "Password is not matching", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Пароль не совпадает", Toast.LENGTH_SHORT).show();
 
                 }
             }

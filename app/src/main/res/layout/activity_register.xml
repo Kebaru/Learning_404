@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_top"
-            android:hint="Username"
+            android:hint="Логин"
             android:inputType="textPersonName"
             android:padding="15dp" />
 
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_middle"
-            android:hint="Password"
+            android:hint="Пароль"
             android:inputType="textPassword"
             android:padding="15dp"/>
 
@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_middle"
-            android:hint="Password"
+            android:hint="Подтвердите пароль"
             android:inputType="textPassword"
             android:padding="15dp"/>
 
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:padding="10dp"
-            android:text="Already Have an Account?  Sign in"
+            android:text="Уже есть аккаунт?  Войдите"
             android:textAllCaps="true"
             android:textSize="13dp"
             android:textStyle="bold"
